@@ -30,7 +30,3 @@ getSlice("Hello World! World", 0, 5);
 
 let ans = "Pranav singh".slice(0, 5);
 console.log(ans);
-
-const value = "Omkar singh";
-let pans = value.substr(2, 5);
-console.log(pans);

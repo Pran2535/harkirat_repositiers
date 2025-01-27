@@ -19,18 +19,3 @@ function findlastindexof(str, target) {
   console.log("Index", str.lastIndexOf(target));
 }
 findlastindexof("Hello World! World", "World");
-
-// length , lastIndexOf, indexOf
-
-function getSlice(str, start, end) {
-  console.log("original string", str);
-  console.log("Slice", str.slice(start, end));
-}
-getSlice("Hello World! World", 0, 5);
-
-let ans = "Pranav singh".slice(0, 5);
-console.log(ans);
-
-const value = "Omkar singh";
-let pans = value.substr(2, 5);
-console.log(pans);
