@@ -46,16 +46,3 @@ console.log("animal" + " " + dog.name);
 console.log(dog.age);
 
 dog.bark();
-
-class Animal {
-  constructor(name) {
-    this.name = name;
-  }
-  speak() {
-    console.log(this.name + " makes a noise");
-  }
-}
-const cat = new Animal("cat");
-
-console.log(cat.name);
-cat.speak();

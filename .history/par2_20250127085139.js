@@ -55,7 +55,5 @@ class Animal {
     console.log(this.name + " makes a noise");
   }
 }
-const cat = new Animal("cat");
-
-console.log(cat.name);
+const cat = new Animal("at");
 cat.speak();

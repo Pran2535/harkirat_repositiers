@@ -56,6 +56,4 @@ class Animal {
   }
 }
 const cat = new Animal("cat");
-
-console.log(cat.name);
 cat.speak();
