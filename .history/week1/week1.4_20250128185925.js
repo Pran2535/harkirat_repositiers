@@ -26,14 +26,11 @@ console.log(findsum(100));
 // call back functions
 // call back functions are those which can be called in other function // are matlab ye hai ek ke ander dusra
 
-function square(n) {
-  return n * n;
+function multiply(a, b, callback) {
+  let result = a * b;
+  callback(result);
 }
-
-function sumoftwosquare(a, b) {
-  const val1 = square(a);
-  const val2 = square(b);
-  return val1 + val2;
+function callback(result) {
+  console.log(result);
 }
-
-console.log(sumoftwosquare(3, 4));
+multiply(1, 2, callback);
